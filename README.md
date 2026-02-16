@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+🚀 Lead Generation Landing Page
+Overview
 
-## Project info
+This project is a high-converting lead generation profile landing page designed to capture, qualify, and convert visitors into actionable prospects.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Built for performance, scalability, and rapid iteration, this landing page enables:
 
-## How can I edit this code?
+Strategic positioning of your personal or business brand
 
-There are several ways of editing your application.
+Optimized lead capture workflows
 
-**Use Lovable**
+Clean UI with modern conversion-focused design
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Fast load speeds and responsive layouts
 
-Changes made via Lovable will be committed automatically to this repo.
+Easy deployment and customization
 
-**Use your preferred IDE**
+🌐 Live Project
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Access the project here:
+👉 https://connect.rohitgautam.site/
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🛠 How to Edit This Project
 
-Follow these steps:
+You have multiple pathways depending on your workflow preference.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+1️⃣ Edit via Lovable (Recommended for Rapid Iteration)
+
+Visit the project in Lovable and prompt changes directly.
+
+All updates are automatically committed to this repository, enabling a streamlined no-friction editing cycle.
+
+2️⃣ Work Locally with Your IDE
+
+If you prefer a local-first development workflow:
+
+Prerequisites
+
+Node.js
+
+npm
+(Recommended: Install via nvm)
+
+Setup Instructions
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate into the project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Your app will launch with hot-reloading for instant feedback.
 
-**Use GitHub Codespaces**
+3️⃣ Edit Directly in GitHub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Open the file you want to modify
 
-## What technologies are used for this project?
+Click the pencil icon (Edit)
 
-This project is built with:
+Commit your changes
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Fast and efficient for small updates.
 
-## How can I deploy this project?
+4️⃣ Use GitHub Codespaces
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Go to the repository
 
-## Can I connect a custom domain to my Lovable project?
+Click “Code”
 
-Yes, you can!
+Select “Codespaces”
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Launch a new Codespace
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Edit, commit, and push
+
+This gives you a full cloud-based development environment.
+
+🧱 Tech Stack
+
+This landing page is engineered with a modern frontend stack:
+
+Vite – Lightning-fast build tool
+
+TypeScript – Type safety and maintainability
+
+React – Component-driven architecture
+
+shadcn-ui – Elegant UI components
+
+Tailwind CSS – Utility-first styling framework
+
+The stack is intentionally lean, scalable, and optimized for conversion-focused builds.
