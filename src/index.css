@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Premium Developer Link Hub Design System
+   Dark theme with neon green accent - Bold & Editorial style
+   All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 20% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 10%;
+
+    --primary: 120 100% 50%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 220 15% 90%;
+    --secondary-foreground: 220 20% 10%;
+
+    --muted: 220 15% 92%;
+    --muted-foreground: 220 10% 40%;
+
+    --accent: 120 100% 50%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 85%;
+    --input: 220 15% 85%;
+    --ring: 120 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --neon: 120 100% 50%;
+    --neon-glow: 0 0 20px hsl(120 100% 50% / 0.5), 0 0 40px hsl(120 100% 50% / 0.3);
+    --neon-glow-strong: 0 0 30px hsl(120 100% 50% / 0.7), 0 0 60px hsl(120 100% 50% / 0.4);
+  }
+
+  .dark {
+    --background: 220 25% 1%;
+    --foreground: 0 0% 95%;
+
+    --card: 220 25% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 220 25% 8%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 120 100% 50%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 220 20% 15%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 120 100% 50%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 120 100% 50%;
+
+    /* Custom tokens */
+    --neon: 120 100% 50%;
+    --neon-glow: 0 0 20px hsl(120 100% 50% / 0.5), 0 0 40px hsl(120 100% 50% / 0.3);
+    --neon-glow-strong: 0 0 30px hsl(120 100% 50% / 0.7), 0 0 60px hsl(120 100% 50% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Force dark mode by default */
+  html {
+    color-scheme: dark;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--foreground)) 0%, hsl(var(--muted-foreground)) 100%);
+  }
+
+  .text-gradient-neon {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--neon)) 0%, hsl(120 100% 70%) 100%);
+  }
+
+  .neon-glow {
+    box-shadow: var(--neon-glow);
+  }
+
+  .neon-glow-strong {
+    box-shadow: var(--neon-glow-strong);
+  }
+
+  .neon-text-glow {
+    text-shadow: 0 0 10px hsl(var(--neon) / 0.8), 0 0 20px hsl(var(--neon) / 0.5), 0 0 30px hsl(var(--neon) / 0.3);
+  }
+
+  .bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.03;
+  }
+}
+
+/* Smooth scrolling with Lenis */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Tech Stack Carousel Animation */
+@keyframes scroll-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-loop {
+  animation: scroll-loop 20s linear infinite;
+}
+
+.animate-scroll-loop:hover {
+  animation-play-state: paused;
+}
