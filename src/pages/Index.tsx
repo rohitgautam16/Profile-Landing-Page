@@ -5,6 +5,8 @@ import PlatformLinks from "@/components/PlatformLinks";
 import AboutMe from "@/components/AboutMe";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import SEOHead from "@/components/SEOHead";
+import FAQ from "@/components/FAQ";
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 import { siteConfig } from "@/config/site";
 
@@ -12,13 +14,13 @@ const Index = () => {
   // Initialize smooth scrolling
   useSmoothScroll();
 
-  // Set document title
-  useEffect(() => {
-    document.title = siteConfig.seo.title;
-  }, []);
-
   return (
     <div className="min-h-screen bg-background relative">
+      <SEOHead
+        title={siteConfig.seo.title}
+        description={siteConfig.seo.description}
+        canonicalPath="/"
+      />
       {/* Global blurred profile background */}
       <div className="fixed inset-0 z-0">
         <img
@@ -35,6 +37,7 @@ const Index = () => {
         {siteConfig.sections.quickLinks && <QuickLinks />}
         {siteConfig.sections.about && <AboutMe />}
         {siteConfig.sections.platforms && <PlatformLinks />}
+        {siteConfig.seo.faq && <FAQ items={siteConfig.seo.faq} />}
         <ContactSection />
         {siteConfig.sections.footer && <Footer />}
       </main>
@@ -43,3 +46,4 @@ const Index = () => {
 };
 
 export default Index;
+

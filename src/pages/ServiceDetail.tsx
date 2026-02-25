@@ -4,6 +4,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ArrowLeft, ArrowRight, CheckCircle, Zap, Users, Package, TrendingUp, Sparkles } from "lucide-react";
 import { siteConfig } from "@/config/site";
+import SEOHead from "@/components/SEOHead";
+import FAQ from "@/components/FAQ";
 import {
   Carousel,
   CarouselContent,
@@ -71,6 +73,11 @@ const ServiceDetail = () => {
       </div>
 
       <div ref={pageRef} className="relative z-10 max-w-xl mx-auto px-4 py-6 space-y-8 bg-black">
+        <SEOHead
+          title={`${service.name} — Rohit Gautam | Developer`}
+          description={d.subheading}
+          canonicalPath={`/service/${slug}`}
+        />
         {/* Back Button */}
         <button
           onClick={() => navigate("/")}
@@ -257,6 +264,11 @@ const ServiceDetail = () => {
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>
+
+        {/* Service FAQ (AEO + GEO) */}
+        {d.faq && d.faq.length > 0 && (
+          <FAQ items={d.faq} serviceName={service.name} />
+        )}
       </div>
     </div>
   );

@@ -74,6 +74,7 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
     items: [
       { label: "View My Portfolio", emoji: "🚀", url: "https://rohitgautam.site" },
       { label: "Hire Me - Freelance", emoji: "💼", url: "mailto:rohit.gautam2403@gmail.com" },
+      { label: "Read My Blog", emoji: "✍️", url: "/blog" },
       // { label: "Shopify Stores", emoji: "🛒", url: "/service/shopify" },
       // { label: "WordPress Sites", emoji: "📝", url: "/service/wordpress" },
     ],
@@ -102,6 +103,11 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
           { title: "AM Hotel Collection", description: "A centralized hospitality platform showcasing multi-location hotels with rich room catalogs, immersive galleries, curated content, and conversion-focused offers", image: "/assets/Projects/amhotelcollection.png", redHoneyProject: true, liveUrl: "https://www.amhotelkollection.com/" },
         ],
         cta: "Let's Build Your App",
+        faq: [
+          { question: "What is the MERN stack?", answer: "MERN stands for MongoDB, Express.js, React, and Node.js — a full JavaScript stack for building modern web applications. It allows one developer to handle both frontend and backend, reducing coordination overhead." },
+          { question: "How long does it take to build a full-stack web app?", answer: "A typical MERN application takes 4-8 weeks depending on complexity. This includes discovery, architecture, iterative development with demos, and production deployment." },
+          { question: "Do you deploy to cloud platforms?", answer: "Yes, I have hands-on experience deploying production applications on Digital Ocean, including server setup, SSL certificates, CI/CD pipelines, and monitoring." },
+        ],
       },
     },
     items: [
@@ -123,9 +129,14 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
           projects: [
             { title: "SteamPRO", description: "A premium bath-tech platform delivering end-to-end at-home steam therapy solutions, combining product discovery, wellness education, and conversion-driven user experience.", image: "/assets/Projects/steampro.png", redHoneyProject: true, liveUrl: "https://steampro.in/" },
             { title: "Aseem Kapoor", description: "A curated designer fashion platform championing artisanal Indian craft and contemporary apparel with rich product showcases and seamless browsing experience.", image: "/assets/Projects/aseemkapoor.png", redHoneyProject: true, liveUrl: "https://aseemkapoor.com/" },
-            { title: "Smi Senses", description: "An e-commerce brand delivering premium natural soy candles with curated collections, sustainable wellness storytelling, and engaging product discovery flows.  ", image: "/assets/Projects/smisenses.png", redHoneyProject: true, liveUrl: "https://smisenses.com/" },
+            { title: "Smii Senses", description: "An e-commerce brand delivering premium natural soy candles with curated collections, sustainable wellness storytelling, and engaging product discovery flows.  ", image: "/assets/Projects/smisenses.png", redHoneyProject: true, liveUrl: "https://smiisenses.com/" },
           ],
           cta: "Let's Build Your Store",
+          faq: [
+            { question: "How much does a Shopify store cost?", answer: "Costs vary based on complexity. A complete store with custom theme, product setup, payment integration, and SEO optimization is priced competitively. Contact me for a detailed quote based on your specific needs." },
+            { question: "Can you migrate my store from another platform?", answer: "Yes, I handle migrations from WooCommerce, Magento, and other platforms to Shopify, including product data, customer info, and SEO redirects to preserve your rankings." },
+            { question: "Will I be able to manage the store myself?", answer: "Absolutely. Shopify is designed to be user-friendly. I also provide training and documentation so you can manage products, orders, and content independently." },
+          ],
         },
       },
       {
@@ -148,10 +159,15 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
             { title: "Accurate Associates", description: "An integrated architecture and infrastructure consultancy delivering sustainable, high-impact residential and institutional projects through 30+ years of design, construction, and advisory excellence across NCR.", image: "/assets/Projects/accurate.png", redHoneyProject: true, liveUrl: "https://accurateassociates.in/" },
           ],
           cta: "Get Your Site Built",
+          faq: [
+            { question: "Why choose WordPress for my website?", answer: "WordPress powers over 40% of the web. It's flexible, SEO-friendly, and easy to manage. You can update content, add blog posts, and make changes without needing a developer." },
+            { question: "Will my WordPress site be fast?", answer: "Yes. I optimize for speed from day one — clean code, minimal plugins, image optimization, and caching. No bloated themes that slow your site down." },
+            { question: "Do you provide ongoing WordPress maintenance?", answer: "Yes, I offer post-launch support including security updates, plugin management, backups, and performance monitoring to keep your site running smoothly." },
+          ],
         },
       },
       {
-        name: "React SPA Websites",
+        name: "React SPA Websites / Portfolios",
         description: "Modern Web Apps",
         image: "/assets/Services/react-spa-img.png",
         gif: "/assets/Services/gifs/react-spa-gif.gif",
@@ -171,6 +187,11 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
             { title: "My Tshirt", description: "An interactive React SPA featuring a real-time 3D T-shirt model that enables color customization, logo uploads, and image-based print personalization.", image: "/assets/Projects/mytshirt.png", redHoneyProject: false, liveUrl: "https://my-tshirt.vercel.app/" },
           ],
           cta: "Build Your React App",
+          faq: [
+            { question: "What is a React SPA?", answer: "A Single Page Application (SPA) built with React loads once and updates dynamically — no page reloads. This creates a fast, app-like experience that keeps users engaged." },
+            { question: "Can you build dashboards and admin panels?", answer: "Yes, I build custom React dashboards, admin panels, and SaaS tools with data visualization, real-time updates, and role-based access control." },
+            { question: "Do you use TypeScript?", answer: "Yes, I use TypeScript by default for all React projects. It catches bugs early, improves code quality, and makes the codebase easier to maintain long-term." },
+          ],
         },
       },
       // {
@@ -245,9 +266,27 @@ Beyond web apps, I create complete **Shopify e-commerce stores** and deliver **r
 
   // SEO & Meta
   seo: {
-    title: "Rohit Gautam | Full-Stack Developer",
-    description: "Full-stack developer specializing in MERN stack, Shopify e-commerce, and WordPress. 1.5+ years of production experience. Available for freelance projects.",
-    ogImage: "/assets/Profile-img.jpg",
+    title: "Rohit Gautam | Full-Stack Developer — MERN, Shopify, WordPress",
+    description: "Full-stack developer with 1.5+ years production experience. I build MERN stack apps, Shopify stores, WordPress websites, and React SPAs. Available for freelance.",
+    ogImage: "https://connect.rohitgautam.site/assets/Profile-img.jpg",
+    faq: [
+      {
+        question: "What services do I offer?",
+        answer: "I offer full-stack MERN development, Shopify e-commerce store setup, WordPress website development, and React SPA development. All services include production deployment and post-launch support.",
+      },
+      {
+        question: "How long does it take to build a website?",
+        answer: "Timeline depends on the project. A Shopify store takes 1-2 weeks, a WordPress site takes 1-3 weeks, and a full-stack MERN app takes 4-8 weeks. I provide a detailed timeline after understanding your requirements.",
+      },
+      {
+        question: "Do I work with international clients?",
+        answer: "Yes, I work with clients worldwide. I've delivered projects for businesses across India and beyond, with clear communication and regular progress updates throughout the project.",
+      },
+      {
+        question: "What happens after the project is delivered?",
+        answer: "I provide post-launch support, documentation, and training so you can manage your site independently. I'm also available for ongoing maintenance and future enhancements.",
+      },
+    ],
   },
 };
 
