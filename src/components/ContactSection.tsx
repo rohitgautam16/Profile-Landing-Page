@@ -56,6 +56,7 @@ const ContactSection = () => {
           name,
           email,
           project_type: projectType,
+          budget: budget || "Not specified",
           message,
           from_name: "Contact Form — " + siteConfig.name,
         }),
