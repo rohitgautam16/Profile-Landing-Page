@@ -56,7 +56,7 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
     },
     {
       name: "Email",
-      url: "mailto:rohit.gautam2403@gmail.com",
+      url: "mailto:connect@rohitgautam.site",
       icon: "mail",
       enabled: true,
     },
@@ -73,7 +73,7 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
     enabled: true,
     items: [
       { label: "View My Portfolio", emoji: "🚀", url: "https://rohitgautam.site" },
-      { label: "Hire Me - Freelance", emoji: "💼", url: "mailto:rohit.gautam2403@gmail.com" },
+      { label: "Hire Me - Freelance", emoji: "💼", url: "mailto:connect@rohitgautam.site" },
       { label: "Read My Blog", emoji: "✍️", url: "/blog" },
       // { label: "Shopify Stores", emoji: "🛒", url: "/service/shopify" },
       // { label: "WordPress Sites", emoji: "📝", url: "/service/wordpress" },
@@ -247,10 +247,15 @@ Beyond web apps, I create complete **Shopify e-commerce stores** and deliver **r
     items: [],
   },
 
+  // Contact Form (Web3Forms — get your free key at https://web3forms.com)
+  contactForm: {
+    web3formsKey: "204cc050-02c5-45ff-a400-8400cb67f586",
+  },
+
   // Footer
   footer: {
     tagline: "Let's build something amazing together.",
-    email: "rohit.gautam2403@gmail.com",
+    email: "connect@rohitgautam.site",
   },
 
   // Section visibility toggles
