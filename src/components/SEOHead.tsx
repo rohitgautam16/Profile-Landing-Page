@@ -18,7 +18,7 @@ const SEOHead = ({
   title,
   description,
   canonicalPath = "/",
-  ogImage = "https://connect.rohitgautam.site/assets/Profile-img.jpg",
+  ogImage = "https://cdn.connect.rohitgautam.site/assets/Profile-img.avif",
   ogType = "website",
   publishedTime,
   author,
