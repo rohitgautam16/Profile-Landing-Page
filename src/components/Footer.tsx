@@ -7,7 +7,7 @@ const Footer = () => {
         <p className="text-sm text-muted-foreground">
           {siteConfig.footer.tagline}
         </p>
-        <p className="text-xs text-muted-foreground/60 mt-2">
+        <p className="text-xs text-muted-foreground mt-2">
           © {new Date().getFullYear()} {siteConfig.name}
         </p>
       </div>

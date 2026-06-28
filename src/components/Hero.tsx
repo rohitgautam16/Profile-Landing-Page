@@ -83,6 +83,7 @@ const Hero = () => {
           alt={siteConfig.name}
           className="w-full h-full object-cover object-center"
           loading="eager"
+          fetchPriority="high"
         />
         {/* Black overlay that appears on scroll */}
         <div
@@ -125,6 +126,7 @@ const Hero = () => {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={link.name}
                 className="w-9 h-9 rounded-full bg-secondary/80 hover:bg-primary/20 flex items-center justify-center transition-all duration-300 hover:scale-110 group"
               >
                 {Icon && (

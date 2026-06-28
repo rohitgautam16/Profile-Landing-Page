@@ -238,6 +238,7 @@ const BlogPost = () => {
                         <div className="absolute top-0 left-0 right-0 flex items-center justify-between p-4">
                             <Link
                                 to="/blog"
+                                aria-label="Back to Blog"
                                 className="w-9 h-9 rounded-full bg-black/40 backdrop-blur-sm flex items-center justify-center border border-white/10 hover:bg-black/60 transition-colors"
                             >
                                 <ArrowLeft className="w-4 h-4 text-white" />
@@ -245,6 +246,7 @@ const BlogPost = () => {
                             <div className="flex gap-2">
                                 <button
                                     onClick={handleShare}
+                                    aria-label="Share post"
                                     className="w-9 h-9 rounded-full bg-black/40 backdrop-blur-sm flex items-center justify-center border border-white/10 hover:bg-black/60 transition-colors"
                                 >
                                     <Share2 className="w-4 h-4 text-white" />
