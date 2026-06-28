@@ -75,11 +75,11 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
   quickLinks: {
     enabled: true,
     items: [
-      { label: "View My Portfolio", emoji: "ðŸš€", url: "https://rohitgautam.site" },
-      { label: "Hire Me - Freelance", emoji: "ðŸ’¼", url: "mailto:connect@rohitgautam.site" },
-      { label: "Read My Blog", emoji: "âœï¸", url: "/blog" },
-      // { label: "Shopify Stores", emoji: "ðŸ›’", url: "/service/shopify" },
-      // { label: "WordPress Sites", emoji: "ðŸ“", url: "/service/wordpress" },
+      { label: "View My Portfolio", emoji: "🚀", url: "https://rohitgautam.site" },
+      { label: "Hire Me - Freelance", emoji: "💼", url: "mailto:connect@rohitgautam.site" },
+      { label: "Read My Blog", emoji: "✍️", url: "/blog" },
+      // { label: "Shopify Stores", emoji: "🛒", url: "/service/shopify" },
+      // { label: "WordPress Sites", emoji: "📝", url: "/service/wordpress" },
     ],
   },
 
@@ -89,18 +89,18 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
     featured: {
       name: "Full-Stack Development",
       description: "MERN Stack | MySQL | Digital Ocean",
-      image: `${ASSET_URL}/assets/Services/fullstack-img.webp`,
+      image: `${ASSET_URL}/assets/Services/fullstack-img.avif`,
       gif: `${ASSET_URL}/assets/Services/gifs/fullstack-gif.gif`,
       url: "/service/fullstack",
       slug: "fullstack",
       detail: {
         headline: "End-to-End Web Applications",
-        subheading: "From architecture to deployment â€” I build production-ready full-stack apps that scale with your business.",
+        subheading: "From architecture to deployment — I build production-ready full-stack apps that scale with your business.",
         whoIsFor: ["Startups needing a complete web application", "Businesses replacing outdated systems", "Founders building their MVP", "Teams that need a reliable full-stack developer"],
         deliverables: ["Full-stack MERN application (MongoDB, Express, React, Node.js)", "MySQL database design & integration", "Custom REST API development", "Production deployment on Digital Ocean", "Performance optimization & security hardening", "Documentation & knowledge transfer"],
-        benefits: ["Ship your product faster with an experienced full-stack dev", "One developer handles frontend + backend â€” less coordination overhead", "Production-tested code from real client projects", "Scalable architecture that won't need a rewrite in 6 months"],
-        process: ["Discovery â€” We define scope, tech stack, and milestones", "Architecture â€” I design the system, database, and API structure", "Build â€” Iterative development with regular demos and feedback", "Launch â€” Production deployment, testing, and handoff"],
-        standout: ["1.5+ years of production experience at RedHoney Consulting", "End-to-end ownership â€” I don't just code, I ship", "Real deployment experience on Digital Ocean", "Clean, maintainable code that your future team will thank you for"],
+        benefits: ["Ship your product faster with an experienced full-stack dev", "One developer handles frontend + backend — less coordination overhead", "Production-tested code from real client projects", "Scalable architecture that won't need a rewrite in 6 months"],
+        process: ["Discovery — We define scope, tech stack, and milestones", "Architecture — I design the system, database, and API structure", "Build — Iterative development with regular demos and feedback", "Launch — Production deployment, testing, and handoff"],
+        standout: ["1.5+ years of production experience at RedHoney Consulting", "End-to-end ownership — I don't just code, I ship", "Real deployment experience on Digital Ocean", "Clean, maintainable code that your future team will thank you for"],
         projects: [
           { title: "Maverick Nexa", description: "Maverick Nexa is a modern digital agency website showcasing custom web development, AI automation, CRM integrations, and scalable business solutions with a premium, conversion-focused user experience.", image: `${ASSET_URL}/assets/Projects/Maverick Nexa.avif`, redHoneyProject: false, liveUrl: "https://agency.rohitgautam.site/" },
           { title: "Align Alternative Therapy", description: "A personalized music-driven wellness platform featuring secure payment integration and a robust admin dashboard to manage content, users, and therapy experiences at scale.", image: `${ASSET_URL}/assets/Projects/align.avif`, redHoneyProject: true, liveUrl: "https://align-alternativetherapy.com/" },
@@ -108,7 +108,7 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
         ],
         cta: "Let's Build Your App",
         faq: [
-          { question: "What is the MERN stack?", answer: "MERN stands for MongoDB, Express.js, React, and Node.js â€” a full JavaScript stack for building modern web applications. It allows one developer to handle both frontend and backend, reducing coordination overhead." },
+          { question: "What is the MERN stack?", answer: "MERN stands for MongoDB, Express.js, React, and Node.js — a full JavaScript stack for building modern web applications. It allows one developer to handle both frontend and backend, reducing coordination overhead." },
           { question: "How long does it take to build a full-stack web app?", answer: "A typical MERN application takes 4-8 weeks depending on complexity. This includes discovery, architecture, iterative development with demos, and production deployment." },
           { question: "Do you deploy to cloud platforms?", answer: "Yes, I have hands-on experience deploying production applications on Digital Ocean, including server setup, SSL certificates, CI/CD pipelines, and monitoring." },
         ],
@@ -124,12 +124,12 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
         slug: "shopify",
         detail: {
           headline: "Launch Your Online Store",
-          subheading: "From zero to a fully functional Shopify store â€” designed to sell, built to scale.",
+          subheading: "From zero to a fully functional Shopify store — designed to sell, built to scale.",
           whoIsFor: ["Small business owners ready to sell online", "Brands migrating from another platform", "Entrepreneurs launching their first product line", "Anyone who needs a store that works, not just looks good"],
           deliverables: ["Fully customized Shopify store with your branding", "Product catalog setup with variants, pricing & inventory", "Payment gateway & shipping configuration", "Mobile-responsive theme (custom or premium)", "SEO setup for product pages & collections", "Launch-ready testing & QA"],
-          benefits: ["Start selling faster with a store built right the first time", "Reduce abandoned carts with optimized checkout flow", "Rank higher on Google with built-in SEO best practices", "Manage your own store easily â€” I'll train you"],
-          process: ["Discovery â€” We discuss your products, brand, and goals", "Build â€” I design and develop your store from scratch", "Review â€” You test everything and request changes", "Launch â€” We go live and I hand over the keys"],
-          standout: ["I don't use cookie-cutter templates â€” every store is tailored to your brand", "I focus on conversion, not just aesthetics", "Post-launch support included â€” I don't disappear after delivery", "Real production experience, not just tutorials"],
+          benefits: ["Start selling faster with a store built right the first time", "Reduce abandoned carts with optimized checkout flow", "Rank higher on Google with built-in SEO best practices", "Manage your own store easily — I'll train you"],
+          process: ["Discovery — We discuss your products, brand, and goals", "Build — I design and develop your store from scratch", "Review — You test everything and request changes", "Launch — We go live and I hand over the keys"],
+          standout: ["I don't use cookie-cutter templates — every store is tailored to your brand", "I focus on conversion, not just aesthetics", "Post-launch support included — I don't disappear after delivery", "Real production experience, not just tutorials"],
           projects: [
             { title: "SteamPRO", description: "A premium bath-tech platform delivering end-to-end at-home steam therapy solutions, combining product discovery, wellness education, and conversion-driven user experience.", image: `${ASSET_URL}/assets/Projects/steampro.avif`, redHoneyProject: true, liveUrl: "https://steampro.in/" },
             { title: "Aseem Kapoor", description: "A curated designer fashion platform championing artisanal Indian craft and contemporary apparel with rich product showcases and seamless browsing experience.", image: `${ASSET_URL}/assets/Projects/aseemkapoor.avif`, redHoneyProject: true, liveUrl: "https://aseemkapoor.com/" },
@@ -152,12 +152,12 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
         slug: "wordpress",
         detail: {
           headline: "Professional WordPress Solutions",
-          subheading: "Get a polished, fast, and manageable website â€” without the headache of doing it yourself.",
+          subheading: "Get a polished, fast, and manageable website — without the headache of doing it yourself.",
           whoIsFor: ["Businesses that need a professional web presence fast", "Bloggers & content creators who want a custom look", "Agencies needing reliable WordPress development", "Anyone tired of slow, broken WordPress sites"],
           deliverables: ["Custom WordPress theme setup (or premium theme customization)", "Essential plugins configured & optimized", "Mobile-responsive, fast-loading design", "Contact forms, analytics & SEO basics", "Content management training so you're self-sufficient", "Security hardening & backup setup"],
-          benefits: ["Go live in days, not months", "Easy to update yourself â€” no developer needed for content changes", "Fast-loading site that won't frustrate visitors", "Built with security best practices from day one"],
-          process: ["Kickoff â€” We align on your goals, content, and design preferences", "Development â€” I build your site with your brand guidelines", "Content & Review â€” You review, I refine until it's perfect", "Handoff â€” I deliver, train you, and provide documentation"],
-          standout: ["I optimize for speed â€” not just aesthetics", "Clean code, no bloated plugins", "I train you to manage your own site confidently", "Ongoing support available if you need it"],
+          benefits: ["Go live in days, not months", "Easy to update yourself — no developer needed for content changes", "Fast-loading site that won't frustrate visitors", "Built with security best practices from day one"],
+          process: ["Kickoff — We align on your goals, content, and design preferences", "Development — I build your site with your brand guidelines", "Content & Review — You review, I refine until it's perfect", "Handoff — I deliver, train you, and provide documentation"],
+          standout: ["I optimize for speed — not just aesthetics", "Clean code, no bloated plugins", "I train you to manage your own site confidently", "Ongoing support available if you need it"],
           projects: [
             { title: "Elgiva", description: "A strategic HR solutions site focused on executive search and recruitment excellence that connects top-tier talent with organizations to catalyze growth and leadership impact.", image: `${ASSET_URL}/assets/Projects/elgiva.avif`, redHoneyProject: true, liveUrl: "https://elgiva.in/" },
             { title: "Accurate Associates", description: "An integrated architecture and infrastructure consultancy delivering sustainable, high-impact residential and institutional projects through 30+ years of design, construction, and advisory excellence across NCR.", image: `${ASSET_URL}/assets/Projects/accurate.avif`, redHoneyProject: true, liveUrl: "https://accurateassociates.in/" },
@@ -165,7 +165,7 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
           cta: "Get Your Site Built",
           faq: [
             { question: "Why choose WordPress for my website?", answer: "WordPress powers over 40% of the web. It's flexible, SEO-friendly, and easy to manage. You can update content, add blog posts, and make changes without needing a developer." },
-            { question: "Will my WordPress site be fast?", answer: "Yes. I optimize for speed from day one â€” clean code, minimal plugins, image optimization, and caching. No bloated themes that slow your site down." },
+            { question: "Will my WordPress site be fast?", answer: "Yes. I optimize for speed from day one — clean code, minimal plugins, image optimization, and caching. No bloated themes that slow your site down." },
             { question: "Do you provide ongoing WordPress maintenance?", answer: "Yes, I offer post-launch support including security updates, plugin management, backups, and performance monitoring to keep your site running smoothly." },
           ],
         },
@@ -179,11 +179,11 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
         slug: "react",
         detail: {
           headline: "Modern React Applications",
-          subheading: "Fast, interactive, and scalable single-page applications â€” built with the tech that powers the modern web.",
+          subheading: "Fast, interactive, and scalable single-page applications — built with the tech that powers the modern web.",
           whoIsFor: ["Startups that need a performant web app MVP", "Businesses replacing legacy frontends", "SaaS companies building dashboards or tools", "Anyone who needs more than a static website"],
           deliverables: ["Custom React SPA with TypeScript", "Responsive UI with modern component library", "API integration with your backend or third-party services", "State management & routing setup", "Performance optimization & lazy loading", "Deployment setup & CI/CD pipeline"],
-          benefits: ["Lightning-fast user experience â€” no page reloads", "Scalable architecture that grows with your product", "Type-safe code that's easier to maintain long-term", "Modern tech stack that attracts top talent"],
-          process: ["Architecture â€” We plan the app structure, routes, and data flow", "Sprint Build â€” I develop in focused sprints with regular demos", "Integration â€” We connect APIs, test edge cases, and polish", "Deploy â€” Production deployment with monitoring setup"],
+          benefits: ["Lightning-fast user experience — no page reloads", "Scalable architecture that grows with your product", "Type-safe code that's easier to maintain long-term", "Modern tech stack that attracts top talent"],
+          process: ["Architecture — We plan the app structure, routes, and data flow", "Sprint Build — I develop in focused sprints with regular demos", "Integration — We connect APIs, test edge cases, and polish", "Deploy — Production deployment with monitoring setup"],
           standout: ["I write production-grade code, not prototype-quality", "TypeScript-first approach for reliability", "Battle-tested patterns from real production apps", "I care about performance, accessibility, and DX equally"],
           projects: [
             { title: "Maverick Nexa", description: "Maverick Nexa is a modern digital agency website showcasing custom web development, AI automation, CRM integrations, and scalable business solutions with a premium, conversion-focused user experience.", image: `${ASSET_URL}/assets/Projects/Maverick Nexa.avif`, redHoneyProject: false, liveUrl: "https://agency.rohitgautam.site/" },
@@ -193,7 +193,7 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
           ],
           cta: "Build Your React App",
           faq: [
-            { question: "What is a React SPA?", answer: "A Single Page Application (SPA) built with React loads once and updates dynamically â€” no page reloads. This creates a fast, app-like experience that keeps users engaged." },
+            { question: "What is a React SPA?", answer: "A Single Page Application (SPA) built with React loads once and updates dynamically — no page reloads. This creates a fast, app-like experience that keeps users engaged." },
             { question: "Can you build dashboards and admin panels?", answer: "Yes, I build custom React dashboards, admin panels, and SaaS tools with data visualization, real-time updates, and role-based access control." },
             { question: "Do you use TypeScript?", answer: "Yes, I use TypeScript by default for all React projects. It catches bugs early, improves code quality, and makes the codebase easier to maintain long-term." },
           ],
@@ -207,12 +207,12 @@ Beyond web apps, I create complete Shopify e-commerce stores and deliver ready-t
       //   slug: "backend",
       //   detail: {
       //     headline: "Robust Backend Architecture",
-      //     subheading: "Secure, scalable APIs and server-side systems â€” the invisible engine behind every great app.",
+      //     subheading: "Secure, scalable APIs and server-side systems — the invisible engine behind every great app.",
       //     whoIsFor: ["Teams that need a reliable API for their frontend", "Startups building their first backend from scratch", "Businesses integrating multiple third-party services", "Anyone whose current backend is slow or unreliable"],
       //     deliverables: ["RESTful API with Node.js & Express", "Database design & implementation (MongoDB or MySQL)", "Authentication & authorization system", "Third-party API integrations", "API documentation", "Production deployment on Digital Ocean"],
       //     benefits: ["Your frontend team can move faster with a clean API", "Secure data handling that protects your users", "Scalable architecture that handles growth", "Well-documented APIs that any developer can work with"],
-      //     process: ["Discovery â€” We map out your data model and API requirements", "Build â€” I develop endpoints with tests and documentation", "Integrate â€” We connect your frontend and third-party services", "Deploy â€” Production setup with monitoring and backups"],
-      //     standout: ["Production deployment experience on Digital Ocean", "I write APIs that are easy for other developers to use", "Security-first approach â€” auth, validation, rate limiting", "Clean, documented code you can maintain without me"],
+      //     process: ["Discovery — We map out your data model and API requirements", "Build — I develop endpoints with tests and documentation", "Integrate — We connect your frontend and third-party services", "Deploy — Production setup with monitoring and backups"],
+      //     standout: ["Production deployment experience on Digital Ocean", "I write APIs that are easy for other developers to use", "Security-first approach — auth, validation, rate limiting", "Clean, documented code you can maintain without me"],
       //     projects: [
       //       { title: "E-commerce API", description: "Complete REST API for an online store with payment integration", image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop" },
       //       { title: "Auth System", description: "JWT-based authentication with role management", image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop" },
@@ -252,7 +252,7 @@ Beyond web apps, I create complete **Shopify e-commerce stores** and deliver **r
     items: [],
   },
 
-  // Contact Form (Web3Forms â€” get your free key at https://web3forms.com)
+  // Contact Form (Web3Forms — get your free key at https://web3forms.com)
   contactForm: {
     web3formsKey: "204cc050-02c5-45ff-a400-8400cb67f586",
   },
@@ -276,7 +276,7 @@ Beyond web apps, I create complete **Shopify e-commerce stores** and deliver **r
 
   // SEO & Meta
   seo: {
-    title: "Rohit Gautam | Full-Stack Developer â€” MERN, Shopify, WordPress",
+    title: "Rohit Gautam | Full-Stack Developer — MERN, Shopify, WordPress",
     description: "Full-stack developer with 1.5+ years production experience. I build MERN stack apps, Shopify stores, WordPress websites, and React SPAs. Available for freelance.",
     ogImage: `${ASSET_URL}/assets/Profile-img.avif`,
     faq: [
